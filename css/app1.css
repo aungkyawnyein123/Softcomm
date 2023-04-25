@@ -1,0 +1,55 @@
+/* *{
+    
+} */
+
+.para{
+    font-size: 20px;
+    text-align: justify;
+}
+.main-heading{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+.sub-heading {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 50%;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+.sub-heading span{
+    background:#fff; 
+    padding:0 10px; 
+}
+.heading-line {
+    width: 200px;
+    height: 2px;
+    background-color: gray;
+    margin: 30px auto;
+}
+#service .row .card{
+    position: relative;
+}
+.card-icon{
+    background-color: blueviolet;
+    cursor: auto;
+
+}
+#service .card:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: 0.5s; 
+    
+}
+#team img{
+    width: 60%; height: 50%; transition: 0.3s;
+}
+#team img:hover{
+    border: 3px;
+    border-radius: 8rem;
+    border-style: solid;
+    border-color: blueviolet;
+}

@@ -1,0 +1,49 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+a {
+    color: white;
+}
+
+.main-heading{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.sub-heading{
+    font-size: 1rem;
+    text-align: center;
+    color: orange;
+}
+
+.heading-line{
+    width: 200px;
+    height: 2px;
+    background-color: orange;
+    margin: 30px auto;
+}
+
+.service-img:hover{
+ transform: scale(1.1);
+}
+
+.plan-2{
+    position: relative;
+    overflow: hidden;
+}
+
+.recommended{
+    width: 200px;
+    background-color: white;
+    color: blue;
+    position: absolute;
+    top: 25px;
+    right: -50px;
+    transform: rotate(35deg);
+}
+
+.accordion-button:not(.collapsed){
+    background-color: orange;
+    color: white;
+}

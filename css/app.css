@@ -1,49 +1,55 @@
-* {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-}
-a {
-    color: white;
-}
+/* *{
+    
+} */
 
+.para{
+    font-size: 20px;
+    text-align: justify;
+}
 .main-heading{
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
+    font-weight: bold;
 }
-
-.sub-heading{
-    font-size: 1rem;
+.sub-heading {
+    font-size: 1.5rem;
     text-align: center;
-    color: orange;
+    width: 50%;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
 }
-
-.heading-line{
+.sub-heading span{
+    background:#fff; 
+    padding:0 10px; 
+}
+.heading-line {
     width: 200px;
     height: 2px;
-    background-color: orange;
+    background-color: gray;
     margin: 30px auto;
 }
-
-.service-img:hover{
- transform: scale(1.1);
-}
-
-.plan-2{
+#service .row .card{
     position: relative;
-    overflow: hidden;
 }
+.card-icon{
+    background-color: blueviolet;
+    cursor: auto;
 
-.recommended{
-    width: 200px;
-    background-color: white;
-    color: blue;
-    position: absolute;
-    top: 25px;
-    right: -50px;
-    transform: rotate(35deg);
 }
-
-.accordion-button:not(.collapsed){
-    background-color: orange;
+#service .card:hover{
+    background-color: blueviolet;
     color: white;
+    transition: 0.5s; 
+    
+}
+#team img{
+    width: 60%; height: 50%; transition: 0.3s;
+}
+#team img:hover{
+    border: 3px;
+    border-radius: 8rem;
+    border-style: solid;
+    border-color: blueviolet;
 }
